@@ -51,7 +51,7 @@ def update_book_name(row_id, new_name):
 update_book_name(1, 'Капитанская дочка')
 
 
-# 🗑 Удаление книги
+
 def delete_book(row_id):
     cursor.execute(
         'DELETE FROM books WHERE rowid = ?',
